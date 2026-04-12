@@ -132,8 +132,7 @@
 
     /* ── Discord 배너 ── */
     .discord-banner {
-      width: 100%; max-width: 900px;
-      margin: 0 24px 48px;
+      grid-column: 1 / -1;
       background: #1a1d2e;
       border: 1px solid #5865f2;
       border-radius: 12px;
@@ -271,7 +270,7 @@
         <ol>
           <li>회원가입 후 로그인</li>
           <li>게시글 작성 및 댓글 등록</li>
-          <li>좋아요 / 신고 기능 테스트</li>
+          <li>좋아요 기능 테스트</li>
         </ol>
       </div>
       <div class="card-footer">
@@ -310,16 +309,17 @@
       </div>
     </div>
 
-  </div>
 
-  <!-- ── Discord 배너 ── -->
-  <div class="discord-banner">
-    <div class="discord-icon">🔔</div>
-    <div class="discord-text">
-      <strong>공통 알림 채널 — Discord</strong>
-      <p>모든 프로젝트의 임계값 초과 알림은 Discord 채널로 실시간 전송됩니다.</p>
+    <!-- Discord 배너 -->
+    <div class="discord-banner">
+      <div class="discord-icon">🔔</div>
+      <div class="discord-text">
+        <strong>공통 알림 채널 — Discord</strong>
+        <p>모든 프로젝트의 임계값 초과 알림은 Discord 채널로 실시간 전송됩니다.</p>
+      </div>
+      <a class="discord-btn" href="https://discord.gg/a9VhVFbqnR" target="_blank">Discord 참여하기</a>
     </div>
-    <a class="discord-btn" href="https://discord.gg/a9VhVFbqnR" target="_blank">Discord 참여하기</a>
+
   </div>
 
   <footer>© 2026 luma200ok · All Rights Reserved</footer>
